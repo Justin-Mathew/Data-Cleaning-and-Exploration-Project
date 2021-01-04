@@ -1,12 +1,16 @@
+# Data Cleaning and Exploration Project.
+
+# Index:
+This repository holds data cleaning and exploration project.
+1. [Images](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/commit/e7a28872ba76f22543d34b801971855ff0769cf6) Images used in readme file.
+2. [Automobile.csv](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/blob/main/Automobile.csv) CSV file used for this project.
+3. [Automobile.ipynb](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/commit/8d9674808da724c4d5a8ec3bf32796d86aaad9c1) Python code.
+4. [AutomobileDetails.txt](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/blob/main/AutomobileDetails.txt) Columns present in CSV file.
+
 # Objective:
 
-The objective is to clean the dataset by dealing with incorrect, missing, duplicate and inconsistent values using python pandas.
+The objective is to clean the dataset by dealing with incorrect, missing, duplicate & inconsistent values using python pandas and performing exploratory data analysis to gain useful insights of the data set.
 
-# Data cleaning:
-
-Data cleaning is the process of removing inconsistent and wrongly formatted data. This can be achieved by manually dealing with these values or by automating the process.
-
-Having a clean dataset will boost the overall productivity by making better decisions and hypothesis relating to a data set.
 
 # About the dataset:
 
@@ -18,7 +22,14 @@ This data set has 26 different columns. These consists of three types of entitie
 2.	Insurance risk rating. The range is between-3 (pretty safe) to +3 (risky).
 3.	Normalised losses. The range is between 65 to 256. This entity represents average loss per car per year.
 
-# Steps taken to clean the dataset:
+# Data cleaning:
+
+Data cleaning is the process of removing inconsistent and wrongly formatted data. This can be achieved by manually dealing with these values or by automating the process.
+
+Having a clean dataset will boost the overall productivity by making better decisions and hypothesis relating to a data set.
+
+
+## Steps taken to clean the dataset:
 
 By counting the frequency of occurrence of each value we observe that values are inconsistent. Dealing with these inconsistent values by removing white spaces and replacing some of the values.
 
@@ -117,9 +128,39 @@ By counting the frequency of occurrence of each value we observe that values are
 ### Generating csv file:
 •	Finally generating a new csv file with clean data.
 
+# Exploratory Data Analysis:
+
+The purpose of performing exploratory data analysis is to gain better understanding of the data set by identifying the correlation between different variables and summarizing the key features of the dataset.
+The price column in the automobile dataset is a target values that means we would like to predict the price of the cars with the help of different variables present in the dataset.
+
+## Data Distribution:
+To get a quick overview of the distribution of the data
+![](Images/describe.png)
+
+## Boxplot:
+Finding relationship between price and drive wheels variable. From the visualization we can observe that rear wheel drive cars are expensive as compared to front and four-wheel drive cars.
+![](Images/boxplot.png)
+Advantages of using boxplot:
+1.	Boxplots are great for representing median values (represented by a line between the rectangle).
+2.	It also highlights the outliers that are present in the dataset represented by dots that are present outside the upper and lower extremes.
+
+## Scatterplot:
+Scatterplot is also a great way to visualize the relationship between two variables. In scatterplot each observation is represented as a dot.
+![](Images/scatter.png)
+From the visualization we can observe there is a positive relationship between engine size and price of the car.
+
+## Pearson correlation:
+To find correlation between all the variable in the data set
+![](Images/pearson.png)
+1.+1 represents total positive linear correlation.
+2. 0 represents no correlation.
+3.-1 represents total negative linear correlation.
+
 # Conclusion:
 
-The dataset was cleaned by replacing all the missing numerical data with mean values and missing categorical data with suitable values. The inconsistent values were replaced by suitable values making the dataset consistent. The out of range values was also replaced by mean values.
+1.The dataset was cleaned by replacing all the missing numerical data with mean values and missing categorical data with suitable values. The inconsistent values were replaced by suitable values making the dataset consistent. The out of range values was also replaced by mean values.
+
+2.Performing exploratory data analysis will help us to determine useful variables that affects our target values. We can further use these variables to feed in a machine learning model that predicts the price of the cars that will help in improving the performance of the model.
 
 # How to run python code:
 
