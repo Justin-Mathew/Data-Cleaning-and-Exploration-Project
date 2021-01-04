@@ -2,9 +2,9 @@
 
 # Index:
 This repository holds data cleaning and exploration project.
-1. [Images](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/commit/e7a28872ba76f22543d34b801971855ff0769cf6) Images used in readme file.
+1. [Images](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/tree/main/Images) Images used in readme file.
 2. [Automobile.csv](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/blob/main/Automobile.csv) CSV file used for this project.
-3. [Automobile.ipynb](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/commit/8d9674808da724c4d5a8ec3bf32796d86aaad9c1) Python code.
+3. [Automobile.ipynb]https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/blob/main/Automobile.ipynb) Python code.
 4. [AutomobileDetails.txt](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/blob/main/AutomobileDetails.txt) Columns present in CSV file.
 
 # Objective:
