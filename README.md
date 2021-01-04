@@ -4,7 +4,7 @@
 This repository holds data cleaning and exploration project.
 1. [Images](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/tree/main/Images) Images used in readme file.
 2. [Automobile.csv](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/blob/main/Automobile.csv) CSV file used for this project.
-3. [Automobile.ipynb]https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/blob/main/Automobile.ipynb) Python code.
+3. [Automobile.ipynb](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/blob/main/Automobile.ipynb) Python code.
 4. [AutomobileDetails.txt](https://github.com/Justin-Mathew/Data-Cleaning-and-Exploration-Project/blob/main/AutomobileDetails.txt) Columns present in CSV file.
 
 # Objective:
@@ -158,9 +158,9 @@ To find correlation between all the variable in the data set
 
 # Conclusion:
 
-1.The dataset was cleaned by replacing all the missing numerical data with mean values and missing categorical data with suitable values. The inconsistent values were replaced by suitable values making the dataset consistent. The out of range values was also replaced by mean values.
+1. The dataset was cleaned by replacing all the missing numerical data with mean values and missing categorical data with suitable values. The inconsistent values were replaced by suitable values making the dataset consistent. The out of range values was also replaced by mean values.
 
-2.Performing exploratory data analysis will help us to determine useful variables that affects our target values. We can further use these variables to feed in a machine learning model that predicts the price of the cars that will help in improving the performance of the model.
+2. Performing exploratory data analysis will help us to determine useful variables that affects our target values. We can further use these variables to feed in a machine learning model that predicts the price of the cars that will help in improving the performance of the model.
 
 # How to run python code:
 
