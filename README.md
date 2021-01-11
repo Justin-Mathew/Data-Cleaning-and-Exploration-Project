@@ -152,9 +152,9 @@ From the visualization we can observe there is a positive relationship between e
 ## Pearson correlation:
 To find correlation between all the variable in the data set
 ![](Images/pearson.png)
-1.+1 represents total positive linear correlation.
-2. 0 represents no correlation.
-3.-1 represents total negative linear correlation.
+1. +1 represents total positive linear correlation.
+2.  0 represents no correlation.
+3. -1 represents total negative linear correlation.
 
 # Conclusion:
 
